@@ -1,16 +1,16 @@
 <p align="center">
   <a href="https://metaplex.com">
-    <img alt="Metaplex" src="https://metaplex.com/meta.svg" width="250" />
+    <img alt="FuturePLEX" src="https://metaplex.com/meta.svg" width="250" />
   </a>
 </p>
 
-Metaplex is a protocol built on top of Solana that allows:
+FuturePLEX is a protocol built on top of Solana that allows:
 
 - **Creating/Minting** non-fungible tokens;
 - **Starting** a variety of auctions for primary/secondary sales;
-- and **Visualizing** NFTs in a standard way across wallets and applications.
+- **Visualizing** NFTs in a standard way across wallets and applications.
 
-Metaplex is comprised of two core components: an on-chain program, and a self-hosted front-end web3 application.
+FuturePLEX is comprised of two core components: an on-chain program, and a self-hosted front-end web3 application.
 
 ## In Depth Developer's Guide
 
@@ -48,9 +48,9 @@ We have a few channels for contact:
 
 ## Non-fungible tokens
 
-Metaplex's non-fungible-token standard is a part of the Solana Program Library (SPL), and can be characterized as a unique token with a fixed supply of 1 and 0 decimals. We extended the basic definition of an NFT on Solana to include additional metadata such as URI as defined in ERC-721 on Ethereum.
+FuturePLEX's non-fungible-token standard is a part of the Solana Program Library (SPL), and can be characterized as a unique token with a fixed supply of 1 and 0 decimals. We extended the basic definition of an NFT on Solana to include additional metadata such as URI as defined in ERC-721 on Ethereum.
 
-Below are the types of NFTs that can be created using the Metaplex protocol.
+Below are the types of NFTs that can be created using the FuturePLEX protocol.
 
 ### **Master Edition**
 
@@ -116,12 +116,12 @@ A tiered auction can contain a mix of the other three auction types as winning p
 
 ## Royalties
 
-Metaplex can seamlessly create on-chain artist splits that remove the awkwardness out of collaboration.
+Fut can seamlessly create on-chain artist splits that remove the awkwardness out of collaboration.
 
 Tag each collaborator, set custom percentages, and you’re off to the races. Each NFT can also be minted with configurable royalty payments that are then sent automatically back to the original creators whenever an artwork is resold on a Metaplex marketplace in the future.
 
 ## Storefronts
 
-Metaplex's off-chain component allows creators to launch a custom storefront, similar to Shopify or WordPress. This open-source project provides a graphical interface to the on-chain Metaplex program, for creators, buyers, and curators of NFTs. The design and layout of storefronts can be customized to suit the needs of the entity creating it, either as a permanent storefront or an auction hub for a specific auction or collection.
+FuturePLEX's off-chain component allows creators to launch a custom storefront, similar to Shopify or WordPress. This open-source project provides a graphical interface to the on-chain Metaplex program, for creators, buyers, and curators of NFTs. The design and layout of storefronts can be customized to suit the needs of the entity creating it, either as a permanent storefront or an auction hub for a specific auction or collection.
 
 All identification on the Storefront is based on wallet addresses. Creators and store admins sign through their wallets, and users place bids from connected wallets. Custom storefronts allow creators to create unique experiences per auction. Additionally, the Metaplex Foundation is working on multiple partnerships that will enable building immersive storefronts using VR/AR.
